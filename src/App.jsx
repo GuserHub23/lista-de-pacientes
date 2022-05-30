@@ -28,7 +28,6 @@ const App = () => {
     setPacientes(pacientes.filter(item => item.id !== id ? item : ''))
   }
 
-  console.log(paciente)
   return (
     <div className="bg-gray-700 min-h-full">
       <div 

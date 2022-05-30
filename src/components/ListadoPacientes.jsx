@@ -2,14 +2,6 @@ import { useEffect } from 'react'
 import Paciente from './Paciente'
 
 const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
-
-  useEffect(() => {
-    if(pacientes.length > 0) {
-
-      console.log('nuevo paciente')
-    }
-  }, [pacientes])
-
   
   return (
     <div className="md:w-1/2 lg:w-3/5 mx-5">
